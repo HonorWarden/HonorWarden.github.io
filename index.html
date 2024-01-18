@@ -174,7 +174,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2024-01-18 18:43:46 / 修改时间：20:29:15" itemprop="dateCreated datePublished" datetime="2024-01-18T18:43:46+08:00">2024-01-18</time>
+              <time title="创建时间：2024-01-18 18:43:46 / 修改时间：22:17:21" itemprop="dateCreated datePublished" datetime="2024-01-18T18:43:46+08:00">2024-01-18</time>
             </span>
 
           
@@ -193,13 +193,16 @@
 <p>$$<br>\vec{b} &#x3D; [b_1,b_2,…,b_M]^T<br>$$</p>
 <p>如果它们的内积为0则称两者正交，即满足：</p>
 <p>$$<br>&lt;\vec{a},\vec{b}&gt;&#x3D;\vec{a}^T\vec{b}&#x3D;\sum_{i&#x3D;1}^{M}a_ib_i&#x3D;0<br>$$</p>
-<h2 id="从有限维向量向无限维向量的推广"><a href="#从有限维向量向无限维向量的推广" class="headerlink" title="从有限维向量向无限维向量的推广"></a>从有限维向量向无限维向量的推广</h2><p><strong>从无限维向量的角度研究函数的性质，想更深入了解的话可以参考“泛函分析”这门学科</strong></p>
+<h2 id="从有限维向量向无限维向量的推广"><a href="#从有限维向量向无限维向量的推广" class="headerlink" title="从有限维向量向无限维向量的推广"></a>从有限维向量向无限维向量的推广</h2><p><strong>从无限维向量的角度研究函数的性质，想更深入了解的话可以去学习“泛函分析”</strong></p>
 <p>在时间区间[0,T)上的信号x(t)与y(t)可以看作无限维的向量,信号在某个时刻的值视作向量的无限多个元素当中的一个。将求和变为积分，他们的内积定义变为：</p>
 <p>$$<br>&lt;x(t),y(t)&gt;  &#x3D; \int_{0}^{T}x(t)y(t)dt<br>$$</p>
-<h1 id="线性调频信号"><a href="#线性调频信号" class="headerlink" title="线性调频信号"></a>线性调频信号</h1><p>线性调频信号是指瞬时频率随时间线性变化的信号，一般也叫LFM信号或者Chirp信号</p>
-<p>$$<br>信号：x(t)&#x3D;e^{j2\pi(at^2+bt+c)}<br>$$</p>
+<h1 id="线性调频信号"><a href="#线性调频信号" class="headerlink" title="线性调频信号"></a>线性调频信号</h1><p>线性调频信号是指瞬时频率随时间线性变化的信号，一般也叫LFM(线性频率调制)信号或者Chirp信号</p>
+<p>$$<br>信号：s(t)&#x3D;e^{j2\pi(at^2+bt+c)}<br>$$</p>
 <p>$$<br>相位:\phi(t)&#x3D;at^2+bt+c<br>$$</p>
 <p>$$<br>瞬时频率：f(t)&#x3D;\frac{d\phi(t)}{dt}&#x3D;2at+b<br>$$</p>
+<p>将LFM信号与普通的复指数信号（单频信号）进行比较：<br>$$<br>LFM信号：x(t)&#x3D;e^{j2\pi(at^2+bt+c)}<br>$$</p>
+<p>$$<br>单频复指数信号：y(t)&#x3D;e^{j2\pi(f_0t+\theta)}，f_0为频率，2\pi\theta 为初始相位<br>$$</p>
+<p><img src="https://raw.githubusercontent.com/HonorWarden/image-host/main/1.jpg"></p>
 <h1 id="OFDM与OCDM"><a href="#OFDM与OCDM" class="headerlink" title="OFDM与OCDM"></a>OFDM与OCDM</h1>
       
     </div>
